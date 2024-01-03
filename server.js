@@ -5,7 +5,7 @@ const apiServer = require('./api');
 const httpServer = http.createServer(apiServer);
 const socketServer = io(httpServer);
 
-const sockets = require('./socket');
+const sockets = require('./sockets');
 
 const PORT = 3000;
 
