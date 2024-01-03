@@ -20,5 +20,4 @@ io.on('connection', (socket) => {
             io.emit('startGame', socket.id);
         }
     });
-
 });
